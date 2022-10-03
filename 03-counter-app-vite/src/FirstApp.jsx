@@ -1,13 +1,14 @@
-const newMessage = 'Mario Eduardo Alvarez Torres';
-const getMsg = () =>{
-    let msgText = "Mensaje de una función"
-    return msgText;
-}
+// const newMessage = 'Mario Eduardo Alvarez Torres';
 
-export const FirstApp = () =>{
+// const getMsg = () =>{
+//     let msgText = "Mensaje de una función"
+//     return msgText;
+// }
+
+export const FirstApp = ({title,subTitle}) =>{
     return(
         <>
-            <h1> { getMsg() } </h1>
+            <h1> { title } </h1>
             <p>Soy un parrafo</p>
         </>
     );     
